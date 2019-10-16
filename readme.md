@@ -63,5 +63,5 @@ This project is licensed under the MIT License.
 
 
 ## For More Information
-Contact Adam Soffer at Soffer@post.bgu.ac.il.
+Contact Adam Soffer at soffer@post.bgu.ac.il.
 
