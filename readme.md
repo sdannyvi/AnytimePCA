@@ -21,7 +21,7 @@ __Default value__: "20".
 * __k_star__: The algorithm exhastively searches all subsets of size k* (each such subset is termed "seed"), completing each one in a greedy way to a candidate set of size k. It then returns the set k which maixmizes variation. The run-time of the algorithm is thus exponential in k*.
 __Default value__: "1".
 * __batch__: Since the algorithm is built to run parallelly, each cpu will handle |batch| amount of seeds. By changing this parameter, task managment overhead can be decreased thus optimizing the runtime of the algorithm. Due notice - the algorithm does not optimize automaticaly and the optimization is up to the user.
-__Default value__: "data.csv".
+__Default value__: "0".
 * __cpus__: The total number of cpus to be used by the algorithm.
 __Default value__: "1".
 * __newrun__: The state of the algorithm is constatnlt being backed-up for case of bad connection, crashes etc... When starting a new execution with the same parameters as the last saved state, it is loaded automatically and the execution continues from that checkpoint. If you wish to generate a new run, and ignore old checkpoints, set this parameter to 1.
@@ -38,7 +38,7 @@ In order to run *SSPCA-EXP*, first you need to install the next basic packages (
 *These packages are default on anaconda enviorment.*
 
 ## Examples
-Assuming the "sspca_exp.py" is at the same folder of your data, there are two ways to activate the algorithm. The first is via command line, the second is via your favorite python IDE (TBD)...
+Assuming the "sspca_exp.py" is at the same folder as your data, there are two ways to run the algorithm. The first is via command line, the second is via your favorite python IDE (TBD)...
 
 ### Command Line Examples:
 
