@@ -2,7 +2,7 @@
 [Link the the paper at archive](https://www.google.com)
 
 ---
-- SSPCA-EXP is an algorithm from the sparse-pca family, __its goal is to reduce dimensions__ of sparse, high-dimensional, noisy data. 
+- SSPCA-EXP is an algorithm for the sparse-pca problem (in &#8467;-norm), __its goal is to reduce dimensions__ of sparse, high-dimensional, noisy data. 
 - Our goal is to offer an alternative for a standard PCA, since it tends to fail in these conditions.
 - The inspiration came from biological data, which holds many features (genes) and a poor amount of samples.  
 
