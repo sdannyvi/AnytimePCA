@@ -52,8 +52,8 @@ __These k_entries are the actual output and the actual features that were chosen
 
 ## Authors
 
-* **Dan Vilenchik**. http://www.bgu.ac.il/~vilenchi
-* **Adam Soffer**.
+* [**Dan Vilenchik**](http://www.bgu.ac.il/~vilenchi)
+* **Adam Soffer**
  
 
 
