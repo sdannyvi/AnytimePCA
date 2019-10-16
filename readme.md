@@ -52,7 +52,7 @@ __These k_entries are the actual output and the actual features that were chosen
 
 ## Authors
 
-* **Dr. Dan Vilenchik**.
+* **Dan Vilenchik**. http://www.bgu.ac.il/~vilenchi
 * **Adam Soffer**.
  
 
@@ -61,9 +61,6 @@ __These k_entries are the actual output and the actual features that were chosen
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
-
-* Dr. Johnathan Rosenblatt.
 
 ## For More Information
 Contact Adam Soffer at Soffer@post.bgu.ac.il.
