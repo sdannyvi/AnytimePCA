@@ -3,7 +3,7 @@
 
 ---
 - SSPCA-EXP is an algorithm for the sparse-pca problem (sparsity in &#8467;0-norm), desinged to solve high-dimensional, ill-posed datasets. 
-- Standard PCA (eigendecomposion) tends to fit noise in such high-dimensional settings, known as [the curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality). To overcome this problem sparsity contsraints are added, which render the problem computationally hard. SSPCA-EXP is an approximation algorithm, whose run time can be calibrated according to the compute resources at hand. The parameter k* (see description below) governs the run-time.
+- Standard PCA (eigendecomposion) tends to fit noise in such high-dimensional settings, known as [the curse of dimensionality](https://en.wikipedia.org/wiki/Curse_of_dimensionality). To overcome this problem sparsity contsraints are added, which unfortunately render the problem computationally hard. SSPCA-EXP is an approximation algorithm, whose run time can be calibrated according to the compute resources at hand. The parameter k* (see description below) governs the run-time.
 
 - The full paper can be found here http://arxiv.org/abs/1910.06846
 ---
