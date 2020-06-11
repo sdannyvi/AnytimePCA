@@ -21,13 +21,14 @@ Parameters:
         Default value: “1”.
     batch:
         Since the algorithm is built to run parallelly, each cpu will handle |batch| amount of seeds. By changing this parameter, task managment overhead can be decreased thus optimizing the runtime of the algorithm. Due notice - the algorithm does not optimize automaticaly and the optimization is up to the user.
-        Default value: “data.csv”.
+        Default value: "100".
     cpus:
         Since the algorithm is built to run parallelly, cpus limits the amount of cpu’s used.
-        Default value: “1”.
+        Default value: “1” (True).
     newrun: 
-        This version saves the state of the algorithm in case of bad connection, crashes etc… When calling for the algorithm with the same parameters the last saved state is loaded and the run continues from that checkpoint. If you wish to generate a new run, and ignore old checkpoints, set this parameter to 1.
-        Default value: “0”.
+        This version saves the state of the algorithm in case of unplanned stop, crashes etc…
+        When calling for the algorithm with the same parameters the last saved state is loaded and the run continues from that checkpoint. If you wish to generate a new run, and ignore old checkpoints, set this parameter to 1.
+        Default value: “0” (False).
 
 Output:
     a csv file located at "./out/[date]/" called "sspcaExp_[k]_[k_star].csv".
