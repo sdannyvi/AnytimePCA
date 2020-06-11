@@ -38,7 +38,7 @@ Output:
 
 import os
 PROJECT_DIR = os.getcwd()
-DATA_DIR = os.getcwd() + '/data'
+DATA_DIR = os.getcwd()
 os.chdir(PROJECT_DIR)
 
 from time import clock
@@ -293,9 +293,10 @@ if __name__ == "__main__":
     })
     
     print('\n==========================================\n')
-    print('Generating output folder if needed') 
     if('out' not in os.listdir() ):
         os.mkdir( 'out' )
+        print('Generating output folder...') 
+    
     if( strftime("%y_%m_%d") not in os.listdir('out/') ):
         os.mkdir( 'out/{}'.format(strftime("%y_%m_%d"))  )
         
