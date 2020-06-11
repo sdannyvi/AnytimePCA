@@ -232,7 +232,7 @@ if __name__ == "__main__":
     
     print('\n          |---------------SSPCA STARTED---------------|')
     i = skip_to_index
-    stdout.write('\r ======= {0:3.2f}% done | current max = {1} | i = {2}'.format( (100*i)/ntas, ev, i) )
+    stdout.write('\r ======= {0:3.2f}% done | current max = {1:2.5f} | i = {2}'.format( (100*i)/ntas, ev, i) )
     stdout.flush()
     
     for tmp_s, tmp_ev in pool.imap(SSPCA, data_gen):
@@ -241,7 +241,7 @@ if __name__ == "__main__":
             k_entries = tmp_s
             
         if( i % 100 == 0 ):
-            stdout.write('\r ======= {0:3.2f}% done | current max = {1} | i = {2}'.format( (100*i)/ntas, ev, i) )
+            stdout.write('\r ======= {0:3.2f}% done | current max = {1:2.5f} | i = {2}'.format( (100*i)/ntas, ev, i) )
             stdout.flush()
             
             cp_df = pd.DataFrame(
@@ -256,7 +256,7 @@ if __name__ == "__main__":
     pool.close() 
     pool.join() 
     
-    stdout.write('\r ======= {0:3.2f}% done | current max = {1} | i = {2} | rtime = {3} '.format( (100), ev, i, clock()-start_time + cp_time) )
+    stdout.write('\r ======= {0:3.2f}% done | current max = {1:2.5f} | i = {2} | rtime = {3:8.0f} '.format( (100), ev, i, clock()-start_time + cp_time) )
     stdout.flush()
             
     print('\n          |---------------SSPCA FINISHED---------------|')
@@ -270,7 +270,7 @@ if __name__ == "__main__":
     se_mp_k_entries = k_entries
     
     print('trace = {0:2.5f}'.format(se_mp_var_star),
-          'rtime = {0:5.0f}'.format(se_mp_runtime) )
+          'rtime = {0:8.0f}'.format(se_mp_runtime) )
 
     print('sspca chose:')
     print( k_entries ) 
