@@ -1,5 +1,5 @@
 # SSPCA-EXP
-[Link the the paper at archive](https://www.google.com)
+[Link to paper](https://arxiv.org/pdf/1910.06846.pdf)
 
 ---
 - SSPCA-EXP is an algorithm for the sparse-pca problem (sparsity in &#8467;0-norm), desinged to solve high-dimensional, ill-posed datasets. 
