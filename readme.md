@@ -54,6 +54,8 @@ __These k_entries are the actual output and the actual features that were chosen
 
 * [**Dan Vilenchik**](http://www.bgu.ac.il/~vilenchi)
 * **Adam Soffer**
+* **Guy Holtzman**
+
  
 
 
